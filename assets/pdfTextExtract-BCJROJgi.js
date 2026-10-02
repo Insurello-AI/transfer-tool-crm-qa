@@ -1,1 +1,0 @@
-import{n as e,t}from"./App-B1Wtdl27.js";e();export{t as extractPdfText};
