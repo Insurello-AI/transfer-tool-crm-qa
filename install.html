@@ -1,0 +1,13 @@
+<!doctype html><html lang="sv"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CRM QA · installation</title>
+<body style="font:16px/1.5 system-ui;max-width:720px;margin:40px auto;padding:20px">
+<h1>Strukturerad CRM · separat QA</h1>
+<p>Detta paket öppnar endast QA-webbplatsen och har inga automatiska content scripts på CRM eller försäkringsportaler.</p>
+<p><a href="download/latest.zip">Ladda ned QA-plugin 0.3.2</a></p>
+<ol><li>Packa upp ZIP:en. Mappnamnet är <code>skadeanmalan-assist-ext</code>.</li>
+<li>Lägg QA-mappen separat från produktionspluginet. Ladda den med <code>Load unpacked</code> i <code>chrome://extensions</code>. Namnet är ”Skadeanmälan Assist · CRM QA”.</li>
+<li>Vid senare QA-uppdatering: ersätt innehållet i samma QA-mapp och klicka Reload.</li>
+<li>Öppna rätt ärende i CRM, klicka QA-pluginet och ”Öppna skadeanmälan QA”.</li>
+<li>Jämför kund/skadelidande, skadeuppgifter, första vårdgivarnamn och datum, senare tillagda besök samt försäkringsuppgifter. Kontrollera eventuella varningar före PDF.</li>
+<li>Skapa PDF och kontrollera blankettens faktiska värden. Testa även att en manuellt borttagen försäkringsuppgift förblir borttagen.</li></ol>
+<p>Produktionens webbplats och kollegornas plugin påverkas inte. QA använder befintligt mall-API; CRM-ärendets rådata behandlas i din webbläsare.</p>
+<p><a href="./?tab=skadeanmalan">Öppna QA-webbplatsen</a> · <a href="download/package.json">Version och paketets SHA-256</a></p></body></html>
