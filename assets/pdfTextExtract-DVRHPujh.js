@@ -1,1 +1,0 @@
-import{n as e,t}from"./App-CT52Acte.js";e();export{t as extractPdfText};
