@@ -1,0 +1,1 @@
+import{n as e,t}from"./App-Z6rTJ60-.js";e();export{t as extractPdfText};
