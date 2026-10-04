@@ -1,9 +1,9 @@
 {
   "schema": "structured_crm_handler_qa_v1",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "target": "https://insurello-ai.github.io/transfer-tool-crm-qa/",
-  "sourceCommit": "2e44ff30ab1226de2c570680a3ba48f53b2e8fbd",
+  "sourceCommit": "550337cb53c58613aa7d5b95a2d358611f350603",
   "folder": "skadeanmalan-assist-ext",
-  "sha256": "3a7dce2b5230b38e0e3da1bebc5e29167dfdf1d51d3257f4d3b6d4709decafc7",
+  "sha256": "7f34514a1feec0cf894d5d9fddd41be7d58bf580bd565daeb07d13a4a018596e",
   "productionPublished": false
 }
